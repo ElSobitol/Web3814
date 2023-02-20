@@ -1,0 +1,108 @@
+body,html{
+  width: auto;
+  overflow-x: hidden;
+  font-family: Verdana, sans-serif;
+  font-weight: 500;
+  margin: 3px 27px 0 44px;
+ 
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  padding: 6px 0px 29px 80px;
+
+}
+
+nav{
+  margin: 40px 0 0 50px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+
+}
+
+nav li{
+  padding: 0 12px 0 25px;
+}
+
+h1{
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  margin: 0 13px 0 69px;
+
+}
+
+p{
+  font-size: 14px;
+
+}
+
+.container{
+  background: url(../img/logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #f2e;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.sidebar{
+  width: 400px;
+  float: right;
+  padding: 0 91px 9px 19px;
+  
+
+}
+
+.main{
+  width: 520px;
+  padding: 1px 0px 0 40px;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+footer{
+  margin-top: 30px;
+}
+
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+}
+
+
+.card-text {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
